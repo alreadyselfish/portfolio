@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Sanskar Tiwari</title>
+    <link rel="stylesheet" href="/data/styles.css">
+    <link rel="stylesheet" href="/data/mediaqueries.css">
+    <script src="/data/script.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">sanskartiwari.</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">sanskartiwari.</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggle()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links ham-menu-custom">
+                <li><a href="#about" onclick="toggle()">About</a></li>
+                <li><a href="#education" onclick="toggle()">Education</a></li>
+                <li><a href="#projects" onclick="toggle()">Projects</a></li>
+                <li><a href="#contact" onclick="toggle()">Contact Me</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container my_cont">
+            <img src="/data/static/code-illus.svg" alt="" class="desk-dp"></img>
+            <img src="/data/static/mob-pic.jpg" alt="" class="mob-dp"></img>
+        </div>
+        <div class="section__text hero__text">
+            <p class="section__text__p1">
+                Hello, I'm
+            </p>
+            <h1>Sanskar Tiwari</h1>
+            <p class="section__text__p2">
+                Software Developer
+            </p>
+            <div class="btn-conatiner">
+                <button class="btn btn-color-2" onclick="window.open('/data/static/resume-example.pdf')">Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="/data/static/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://linkedin.com/in/alreadyselfish'">
+                <img src="/data/static/github.png" alt="Github" class="icon" onclick="location.href='https://github.com/alreadyselfish'">
+                <img src="/data/static/leetcode.png" alt="Leetcode" class="icon" onclick="location.href='https://leetcode.com/alreadyselfish'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="/data/static/profile-picK.png" alt="profile" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="/data/static/experience.png" alt="experience icon" class="icon">
+                        <h3>Notable Certificates</h3>
+                        <ul>
+                                <p>Introduction to Machine Learning</p>
+                                <p>Introduction to NoSQL Databases</p>
+                               <p>Machine Learning Foundations</p>
+                        </ul>
+                    </div>
+                    <div class="details-container">
+                        <img src="/data/static/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        
+                            <p>Class 10th | ICSE | 8.24cgpa</p>
+                            <p>Class 12th | CBSE | 80.4%</p>
+                           <p>B.Tech | CSE | 8.08gpa </p>
+                        
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hi, I'm Sanskar Tiwari, a 20-year-old developer who loves coding and problem-solving. I specialize in Python and Django. My other skills are JavaScript, Bootstrap, Java, and Algorithms. Currently in my 4th year of CSE-AIML B.Tech degree, I enjoy pushing the boundaries of technology. Write to me and let's work together to create awesome web solutions and bring your ideas to life!</p>
+                </div>
+            </div>
+        </div>
+        <img src="/data/static/arrow.png" alt="ic" class="icon arrow" onclick="location.href='#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">
+            Explore My
+        </p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers-skill">
+                <div class="details-container gc-span4">
+                    <h2 class="experience-subtitle">
+                        Technical Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Django</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>CSS/Bootstrap</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Machine Learning</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Data Structures</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Algorithms</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container gc-span2">
+                    <h2 class="experience-subtitle">
+                        Tools Used</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>VS Code</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Heroku</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/data/static/checkmark.png" alt="" class="icon">
+                            <div>
+                                <h3>Git/Github</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="/data/static/arrow.png" alt="ic" class="icon arrow" onclick="location.href='#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers about-grid">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="/data/static/project_type.PNG" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">
+                        TypeBleh
+                    </h2>
+                    <p class="high_text"> Implemented real time feedback for typing interface using javascript. <br>Used API to fetch quotes. <br>  Used bootstrap for styling. <br> Used Django for backend.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/alreadyselfish/type-bleh'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://typebleh.pythonanywhere.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="/data/static/project_cy.PNG" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">
+                        CyBlocks
+                    </h2>
+                    <p class="high_text"> Made landing page/website for college blockchain club. <br> Connected joining page to automatically send mail. <br>  Used bootstrap for styling. <br> Used Django for backend.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/alreadyselfish/cywebsite'">
+                            Github
+                        </button>
+                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='typebleh.pythonanywhere.com'">
+                            Live Demo
+                        </button> -->
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="/data/static/project_lbms.PNG" alt="" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">
+                        LBMS
+                    </h2>
+                    <p class="high_text"> Library Management System <br> Performs CRUD in the database. <br>  Used Django ORM for database. <br> Used Django for backend.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/alreadyselfish/LBMS_django'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://lbmsdjango.pythonanywhere.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper">
+            <div class="contact-info-container">
+                <img src="/data/static/email.png" alt="" class="icon contact-icon email">
+                <p><a href="mailto:en.sanskar@outlook.com">en.sanskar@outlook.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="/data/static/linkedin.png" alt="" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/alreadyselfish">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Sanskar Tiwari, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
